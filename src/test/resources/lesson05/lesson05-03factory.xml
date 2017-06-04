@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson05-03suite" parallel="false" verbose="1">
+	<test name="lesson05-03test">
+		<classes>
+			<parameter name="times" value="5" />
+			<class name="lesson05.WebTestFactory"/>
+		</classes>
+	</test>
+</suite>

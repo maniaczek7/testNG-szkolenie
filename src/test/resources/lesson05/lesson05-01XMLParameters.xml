@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson05-01suite" parallel="false">
+	<parameter name="domain" value="http://localhost:3000" />
+	<parameter name="site" value="/application" />
+	<test name="lesson05-01test">
+	  	<parameter name="title" value="Welcome!" />
+		<classes>
+			<class name="lesson05.XMLParametersTest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson01-2" parallel="false">
+  <test name="lesson01-2">
+    <classes>
+      <class name="lesson01.StudentTestComplete"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

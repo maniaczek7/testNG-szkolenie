@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="lesson05-03suite" duration-ms="47" started-at="2017-04-14T13:52:59Z" finished-at="2017-04-14T13:52:59Z">
+    <groups>
+    </groups>
+    <test name="lesson05-03test" duration-ms="47" started-at="2017-04-14T13:52:59Z" finished-at="2017-04-14T13:52:59Z">
+      <class name="lesson05.WebTestFactory">
+        <test-method status="PASS" signature="beforeWebTest(int)[pri:0, instance:lesson05.WebTestFactory@3ab39c39]" name="beforeWebTest" is-config="true" duration-ms="16" started-at="2017-04-14T15:52:59Z" finished-at="2017-04-14T15:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeWebTest -->
+      </class> <!-- lesson05.WebTestFactory -->
+      <class name="lesson05.WebTest">
+        <test-method status="PASS" signature="testServer()[pri:0, instance:lesson05.WebTest@35bbe5e8]" name="testServer" duration-ms="7" started-at="2017-04-14T15:52:59Z" finished-at="2017-04-14T15:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServer -->
+        <test-method status="PASS" signature="testServer()[pri:0, instance:lesson05.WebTest@3f0ee7cb]" name="testServer" duration-ms="1" started-at="2017-04-14T15:52:59Z" finished-at="2017-04-14T15:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServer -->
+        <test-method status="PASS" signature="testServer()[pri:0, instance:lesson05.WebTest@75bd9247]" name="testServer" duration-ms="1" started-at="2017-04-14T15:52:59Z" finished-at="2017-04-14T15:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServer -->
+        <test-method status="PASS" signature="testServer()[pri:0, instance:lesson05.WebTest@7d417077]" name="testServer" duration-ms="1" started-at="2017-04-14T15:52:59Z" finished-at="2017-04-14T15:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServer -->
+        <test-method status="PASS" signature="testServer()[pri:0, instance:lesson05.WebTest@7dc36524]" name="testServer" duration-ms="1" started-at="2017-04-14T15:52:59Z" finished-at="2017-04-14T15:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServer -->
+      </class> <!-- lesson05.WebTest -->
+    </test> <!-- lesson05-03test -->
+  </suite> <!-- lesson05-03suite -->
+</testng-results>

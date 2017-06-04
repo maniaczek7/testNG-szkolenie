@@ -1,0 +1,91 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" 
+	allow-return-values="false" 
+	annotations="" 
+	configfailurepolicy="skip" 
+	data-provider-thread-count="10" 
+	group-by-instances="false" 
+	guice-stage="DEVELOPMENT" 
+	junit="false" 
+	object-factory="" 
+	parallel="false" 
+	parent-module="" 
+	preserve-order="true" 
+	skipfailedinvocationcounts="false" 
+	thread-count="5" 
+	time-out="" 
+	verbose="">
+
+	<suite-files>
+		<suite-file path="test0.xml" />
+	</suite-files>
+	
+	<groups>
+		<dependencies>
+			<group depends-on="" name="" />
+		</dependencies>
+		<define name="">
+			<include name="" description=""/>
+		</define>
+		<run>
+			<include name="" description=""/>
+			<exclude name="" />
+		</run>	
+	</groups>
+	
+	<listeners>
+		<listener class-name="" />
+	</listeners>
+	
+	<method-selectors>
+		<method-selector>
+			<script language="" />
+			<selector-class name="" priority=""/>
+		</method-selector>
+	</method-selectors>
+	
+	<packages>
+		<package name="" />
+	</packages>
+	
+	<parameter name="" value="" />
+	
+	<test name="">
+		<parameter name="" value="" />
+		<classes>
+			<parameter name="" value="" />
+			<class name="" />
+		</classes>
+		
+		<groups>
+			<dependencies>
+				<group depends-on="" name="" />
+			</dependencies>
+			<define name="">
+				<include name="" description=""/>
+			</define>
+			<run>
+				<include name="" description=""/>
+				<exclude name="" />
+			</run>	
+		</groups>
+		
+		<method-selectors>
+			<method-selector>
+				<script language="" />
+				<selector-class name="" priority=""/>
+			</method-selector>
+		</method-selectors>
+		
+		<packages>
+			<package name="">
+				<exclude name=""></exclude>
+				<include name=""></include>
+			</package>
+		</packages>
+	</test>
+</suite>
+
+
+

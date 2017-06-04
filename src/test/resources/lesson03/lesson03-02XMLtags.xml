@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson03-02suite" parallel="false" verbose="10">
+
+	<test name="lesson03-02testClasses">
+		<classes>
+			<class name="lesson03.AnnotationsTest"/>
+			<class name="lesson01.StudentTestComplete"/>
+		</classes>
+	</test>
+
+	<test name="lesson03-02testPackages">
+		<packages>
+			<package name="lesson01"/>
+			<package name="lesson02.*"/>
+			<package name="lesson.*"/>
+		</packages>
+	</test>
+
+	<!-- 	will be run first -->
+	<test name="lesson03-02testSuiteFiles">
+		<suite-files>
+			<suite-file path="./lesson03-01annotations.xml" />
+			<suite-file path="../selenium.xml" />
+		</suite-files>	
+	</test>
+  
+    <test name="lesson03-02testBeanshell">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell">
+                <![CDATA[//runGroup = System.getproperty("runGroup");
+		                 runGroup = "smoke";
+		                 groups.containsKey(runGroup);]]>
+                </script>
+            </method-selector>
+        </method-selectors>
+        <classes>
+            <class name="lesson03.AnnotationsTest" />
+        </classes>
+    </test>
+	
+	<test name="lesson03-02testDefine groups">
+		<groups>
+			<define name="all">
+				<include name="aut" />
+				<include name="test" />
+				<exclude name="smoke" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+        <classes>
+            <class name="lesson03.AnnotationsTest" />
+        </classes>
+    	<packages>
+			<package name="lesson03"/>
+			<package name="lesson0.*"/>
+		</packages>
+	</test>
+	
+	<test name="lesson03-02testMethodsSelect">
+		<classes>
+			<class name="lesson03.AnnotationsTest">
+				<methods>
+					<include name="test*"/>
+					<exclude name="test3"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

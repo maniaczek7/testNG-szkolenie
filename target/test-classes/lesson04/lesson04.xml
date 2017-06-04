@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson04suite" parallel="false" verbose="0">
+
+	<test name="lesson04test">
+		<classes>
+			<class name="lesson04.StudentAssertionsTest"/>
+		</classes>
+	</test>
+
+</suite>

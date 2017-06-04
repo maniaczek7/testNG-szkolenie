@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson07suite" parallel="false" verbose="0">
+
+	<test name="lesson07test">
+		<classes>
+			<class name="lesson07.TestNGTestGenerator"/>
+			<class name="lesson07.TestNGXMLgenerator"/>
+		</classes>
+	</test>
+
+</suite>

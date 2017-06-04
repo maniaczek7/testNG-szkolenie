@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson09-03seleniumSuite" parallel="false" verbose="0">
+  <listeners>
+    <listener class-name="lesson09.LoggerListener" />
+  </listeners>
+  <test name="lesson09-03seleniumTest">
+    <classes>	    
+      <class name="lesson09.AllegroTest"/>
+    </classes>
+  </test>
+</suite>

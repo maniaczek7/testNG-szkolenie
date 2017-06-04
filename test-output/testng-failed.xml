@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [lesson09-02seleniumSuite]">
+  <listeners>
+    <listener class-name="lesson09.ScreenshotOnFailureListener"/>
+    <listener class-name="lesson09.ExtentReporterNGListener"/>
+    <listener class-name="lesson09.LoggerListener"/>
+  </listeners>
+  <test name="lesson09-02seleniumTest(failed)">
+    <classes>
+      <class name="lesson09.AllegroTest">
+        <methods>
+          <include name="configureTestClass"/>
+          <include name="exitBrowser"/>
+          <include name="shouldSuccesfullyLogin" invocation-numbers="0"/>
+          <include name="setupBrowserAndLogIntoApplication"/>
+        </methods>
+      </class> <!-- lesson09.AllegroTest -->
+    </classes>
+  </test> <!-- lesson09-02seleniumTest(failed) -->
+</suite> <!-- Failed suite [lesson09-02seleniumSuite] -->

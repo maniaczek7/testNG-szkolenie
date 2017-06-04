@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteTest0" parallel="false">
+
+    <test name="Beanshell">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell">
+                <![CDATA[//runGroup = System.getproperty("runGroup");
+                runGroup = "smoke";
+                groups.containsKey(runGroup);
+                ]]>
+                </script>
+            </method-selector>
+        </method-selectors>
+        <classes>
+            <class name="lesson08.AnnotationsTest" />
+        </classes>
+    </test>
+
+</suite>

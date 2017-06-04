@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson05-01suite" parallel="false">
+	<test name="lesson05-01test">
+		<classes>
+			<class name="lesson05_01.ContextDataProviderTest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

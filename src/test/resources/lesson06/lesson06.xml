@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson06suite" parallel="false" verbose="0">
+
+	<test name="lesson06test">
+		<classes>
+			<class name="lesson06.Exception1Test"/>
+			<class name="lesson06.Exception2MessageTest"/>
+		</classes>
+	</test>
+
+</suite>

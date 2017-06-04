@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="lesson05-02suite" parallel="false" verbose="1">
+
+	<test name="lesson05-02test01">
+	  <parameter name="number-of-times" value="10"/>
+	  <classes>
+	  	<class name= "lesson05.WebTestParameters" />
+	  </classes>
+	</test>
+	 
+	<test name="lesson05-02test02">
+	  <parameter name="number-of-times" value="20"/>
+	  <classes>
+	  	<class name= "lesson05.WebTestParameters" />
+	  </classes>
+	</test>
+	 
+	<test name="lesson05-02test03">
+	  <parameter name="number-of-times" value="30"/>
+	  <classes>
+	  	<class name= "lesson05.WebTestParameters" />
+	  </classes>
+	</test>
+
+</suite>
